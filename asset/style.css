@@ -1,0 +1,370 @@
+*{
+ 
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+#header {
+
+    height: 100px;
+    position: relative;
+   
+
+}
+
+
+#header a img {
+   position: absolute;
+    height: 60px;
+    margin-left: 200px;
+    top: 30%;
+
+}
+
+#nav li  {
+
+    display: inline;
+    line-height: 100px;
+    font-size: 15px;
+   
+    float: right;
+    
+    padding: 0 30px;
+
+  
+}
+#nav li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 440;
+    color: black;
+}
+#nav li:hover a {
+    color:  rgb(26, 176, 126);
+}
+
+#baner {
+    padding-top: 150px;
+    padding-left:200px;
+    position: relative;
+
+}
+
+
+
+#text {
+    font-weight: 700;
+}
+#text #text-hi {
+    font-size: 40px;
+    padding-bottom: 10px;
+    
+
+}
+
+
+#text #text-name {
+    font-size: 70px;
+    padding-bottom: 20px;
+  
+}
+#text #text-intro {
+    font-size: 24px;
+    padding-bottom: 30px;
+}
+
+
+
+#content  {
+
+  display: flex;
+
+
+}
+ #hire a {
+    display: inline-block;
+    border: solid;
+    border-color:  rgb(26, 176, 126);
+    border-radius: 5px;
+    margin-right: 40px;
+    line-height: 46px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-bottom: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    background-color: rgb(26, 176, 126);
+}
+
+#hire a:hover {
+    background-color: white;
+    color: black;
+}
+#cv a {
+    display: inline-block;
+    border: solid;
+    border-color:  rgb(26, 176, 126);
+    border-radius: 5px;
+    line-height: 46px;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+#cv a:hover {
+    background-color:  rgb(26, 176, 126);
+    color: white;
+}
+
+#pic  {
+    max-width: 100%;
+    height: auto;
+    position: absolute;
+    right: 0%;
+    top: 2%;
+}
+#introduce {
+    display: flex;
+
+}
+
+#picture {
+    margin-top: 400px;
+    margin-left: 0%;
+ 
+    max-width: 100%;
+    height: auto;
+
+}
+
+#nav_intro {
+    margin-top: 510px;
+    padding-left: 50px;
+}
+
+#nav_intro h1 {
+    padding-bottom: 20px;
+}
+
+#nav_intro p {
+    line-height: 35px;
+}
+
+/* #exp {
+    
+} */
+#exp h1 {
+    color: black;
+    text-align: center;
+    
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#allweb {
+    display: flex ;
+ 
+    
+}
+
+ #allweb #wb {
+    margin-right: 95px;
+    margin-left: 110px;
+    background-color: rgb(246, 248, 248);
+    width: 250px;
+    padding-left: 10px;
+
+}
+
+
+#allweb #wb:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0px 15px 30px rgb(77 87 222 / 30%);
+}
+
+
+#allweb #wb img {
+    position: relative; 
+    top: 0;
+    left: 85px  ;
+    padding-top: 20px;
+}
+#allweb #wb h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+#allweb #wb p  {
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+
+#allweb #UI {
+    margin-right: 100px;
+    background-color: rgb(246, 248, 248);
+    width: 250px;
+}
+
+#allweb #UI:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0px 15px 30px rgb(77 87 222 / 30%);
+}
+
+
+
+#allweb #UI img {
+     position: relative;
+    top: 0;
+    left: 85px  ;
+    padding-top: 23px;
+}
+
+
+#allweb #UI h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+#allweb #UI p {
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+
+#allweb #web {
+    margin-right: 100px;
+    background-color: rgb(246, 248, 248);
+    width: 250px;
+}
+#allweb #web:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0px 15px 30px rgb(77 87 222 / 30%);
+}
+
+
+#allweb #web img {
+    position: relative;
+    top: 0;
+    left: 87px  ;
+    padding-top: 23px;
+}
+#allweb #web h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 45px;
+}
+#allweb #web p {
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+
+
+#allweb #seo {
+    background-color: rgb(246, 248, 248);
+    width: 250px;
+}
+
+
+#allweb #seo:hover {
+    background-color: #f8f9fa;
+    box-shadow: 0px 15px 30px rgb(77 87 222 / 30%);
+}
+#allweb #seo img {
+    position: relative;
+    top: 0;
+    left: 90px  ;
+    padding-top: 23px;
+}
+
+#allweb #seo h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+#allweb #seo p {
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+#footer {
+    
+    height: 450px;
+}
+#footer {
+    position: relative;
+    font-family: "Rubik",sans-serif;
+    font-weight: 500;
+   
+}
+#footer h1 {
+  
+    right: 44.7%;
+    margin-top: 200px;
+    position: absolute;
+}
+#footer #facebook img:hover {
+
+  height: 50px;
+  width: 50px;
+ 
+
+}
+#footer #facebook img {
+
+    height: 40px;
+    width: 40px;
+     position: absolute;
+     margin-top: 300px;
+     margin-left: 640px;
+     
+}
+
+#footer #insta img {
+    
+    height: 40px;
+    width: 40px;
+     position: absolute;
+     margin-top: 300px;
+     margin-left: 740px;
+}
+#footer #insta img:hover {
+    
+  height: 50px;
+  width: 50px;
+}
+
+#footer #email img {
+     
+    height: 40px;
+    width: 40px;
+     position: absolute;
+     margin-top: 300px;
+     margin-left: 840px;
+}
+#footer #email img:hover {
+    height: 50px;
+  width: 50px;
+}
+
+#footer p {
+    position: absolute;
+     margin-top: 400px;
+     margin-left: 640px;
+     
+}
+#footer p a {
+    text-decoration: none;
+    color: rgb(26, 176, 126) ;
+}
+
